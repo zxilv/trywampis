@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka One', cursive;
+}
+:root {
+    --c1: #e6eff5;
+    --c2: #cddfea;
+    --c3: #83b0cc;
+    --c4: #3980ad;
+    --c5: #076098;
+    --c6: #05436a;
+    --c7: #03263d;
+    --c8: #021d2e;
+    --c9: #01131e;
+    --c10: #010a0f;
+
+}
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    width: 100%;
+    height: 100vh;
+
+    background: url(./bg/wanpis.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header {
+    width: 100%;
+    height: 23vh;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+    background: rgba(1, 19, 30,.5);
+    color: var(--c3);
+
+    position: sticky;
+    top: 0;
+    right: 100px;
+    bottom: 100px;
+    left: 100px;
+}
+header a {
+    font-size: clamp(1rem, 1vw, 2rem);
+    color: var(--c1);
+}
+header p {
+    color: var(--c3);
+}
+header h1 {
+    font-size: clamp(3.3rem, 2vw, 4rem);
+}
+/* ICONS */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 900,
+  'GRAD' 0,
+  'opsz' 48;
+
+  color: var(--c3);
+  font-size: 20px;
+}

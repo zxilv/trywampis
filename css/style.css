@@ -1,0 +1,29 @@
+.logo {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    display: grid;
+    align-items: center;
+}
+.navbar ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar li {
+    list-style: none;
+    text-align: center;
+}
+.navlist {
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar a {
+    text-decoration: none;
+    text-decoration-style: none;
+    color: black;
+}
